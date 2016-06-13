@@ -215,8 +215,6 @@ function allReady(){
 }
 
 
-
-
 //$(window).load(function() {    loadImage(); });
 
 
