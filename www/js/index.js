@@ -180,11 +180,12 @@ function allReady(){
     $('.botones .btn').click(function(){
         var view = $(this).attr('id');
         view = view.replace('#', '');
+        $('.botones').removeClass('visible');
         $('.info').hide();
         $('.info[data="'+view+'"]').show();
         $('.textbox').addClass('open');
         $('.character').addClass('run');
-        $('.botones').removeClass('visible');
+
         characterInit();
 
     });
@@ -215,7 +216,9 @@ function allReady(){
 }
 
 
-//$(window).load(function() {    loadImage(); });
+
+
+//  $(window).load(function() {    loadImage(); });
 
 
 
