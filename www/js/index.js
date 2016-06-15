@@ -63,6 +63,7 @@ var app = {
 
 function reLoadImage(){ counterLoader++; loadImage(); }
 function loadImage(){
+  /*
     if(counterLoader <= totalImages){
      $('<img src="img/new_bg/bg-'+counterLoader+'.jpeg" />').load(function(){
        var path = $(this).attr('src');
@@ -73,6 +74,9 @@ function loadImage(){
         allReady();
         charLoadImgs();
     }
+    */
+    allReady();
+    charLoadImgs();
 }
 
 

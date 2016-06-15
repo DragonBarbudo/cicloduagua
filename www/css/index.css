@@ -1923,6 +1923,10 @@ body h1 {
 .loader.hider {
   display: none;
 }
+.background {
+  background-image: url(../img/new_bg/anim.gif);
+  background-size: 100%;
+}
 .background,
 .character {
   width: 100%;
@@ -1932,7 +1936,6 @@ body h1 {
   top: 0;
   right: 0;
   bottom: 0;
-  visibility: hidden;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -o-transform: translateZ(0);
