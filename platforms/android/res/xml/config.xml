@@ -5,10 +5,6 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <preference name="xwalkVersion" value="18+" />
-    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
-    <preference name="xwalkMode" value="embedded" />
-    <preference name="xwalkMultipleApk" value="true" />
     <allow-intent href="market:*" />
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" value="true" />
